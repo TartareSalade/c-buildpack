@@ -1,0 +1,12 @@
+api = "0.2"
+
+# General metadata about the buildpack that is used be the lifecycle
+[buildpack]
+  id = "sbkr/c-buildpack"
+  name = "C Buildpack"
+  version = "0.1"
+
+# The list of stacks that the buildpack itself is compatible with
+[[stacks]]
+  id = "io.buildpacks.stacks.jammy"
+
